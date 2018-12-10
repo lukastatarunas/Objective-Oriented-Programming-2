@@ -78,7 +78,6 @@ public:
 		text.setPosition(Xcoord, Ycoord);
 		text.setFillColor(sf::Color(r_text, g_text, b_text));
 		text.setStyle(sf::Text::Style::Bold | sf::Text::Style::Italic);
-		/*text.setPosition((width / 2 - height / 2), (width / 2 - height / 2));*/
 		while (window.isOpen())
 		{
 			sf::Event Event;
